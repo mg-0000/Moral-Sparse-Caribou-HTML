@@ -260,10 +260,12 @@
 }
 .home-text11 {
   top: 118px;
+  left: var(--dl-space-space-sixunits);
   color: var(--dl-color-gray-700);
-  right: -304px;
+  right: var(--dl-space-space-sixunits);
   position: absolute;
   font-size: 21px;
+  text-align: center;
 }
 @media(max-width: 767px) {
   .home-header {
