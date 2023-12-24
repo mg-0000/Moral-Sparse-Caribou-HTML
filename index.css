@@ -50,21 +50,6 @@
   }
 }
 
-.app-component-container {
-  display: flex;
-  position: relative;
-}
-.app-component-text {
-  color: var(--dl-color-gray-700);
-  font-size: 21px;
-}
-.app-component-root-class-name {
-  top: 137px;
-  left: var(--dl-space-space-sixunits);
-  right: var(--dl-space-space-sixunits);
-  position: absolute;
-}
-
 .home-container {
   width: 100%;
   display: flex;
@@ -272,6 +257,13 @@
   left: 483px;
   color: var(--dl-color-gray-700);
   position: absolute;
+}
+.home-text11 {
+  top: 118px;
+  color: var(--dl-color-gray-700);
+  right: -304px;
+  position: absolute;
+  font-size: 21px;
 }
 @media(max-width: 767px) {
   .home-header {
