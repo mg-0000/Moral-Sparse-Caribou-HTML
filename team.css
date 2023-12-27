@@ -313,6 +313,21 @@
   align-items: center;
   justify-content: flex-start;
 }
+.team-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.team-image8 {
+  height: 2rem;
+  object-fit: cover;
+}
 @media(max-width: 1600px) {
   .team-frame1 {
     height: 724px;
@@ -339,6 +354,7 @@
   .team-image2 {
     top: 2px;
     left: 340px;
+    height: 250px;
     position: absolute;
   }
   .team-container03 {
@@ -367,6 +383,7 @@
   .team-image3 {
     top: 2px;
     left: 340px;
+    height: 250px;
     position: absolute;
   }
   .team-container05 {
@@ -396,6 +413,7 @@
   .team-image4 {
     top: 2px;
     left: 340px;
+    height: 250px;
     position: absolute;
   }
   .team-container07 {
@@ -412,6 +430,8 @@
     top: 472px;
     left: 89px;
     width: 566px;
+    bottom: 3px;
+    position: 0px;
   }
   .team-text13 {
     top: 0px;
@@ -422,6 +442,8 @@
   .team-image5 {
     top: 2px;
     left: 340px;
+    right: 13px;
+    height: 250px;
     position: absolute;
   }
   .team-container09 {
@@ -459,6 +481,7 @@
   .team-image6 {
     top: 0px;
     right: 0px;
+    height: 250px;
     position: absolute;
   }
   .team-container11 {
@@ -491,6 +514,7 @@
   .team-image7 {
     top: 0px;
     right: 0px;
+    height: 250px;
     position: absolute;
   }
   .team-container14 {
@@ -519,6 +543,10 @@
     align-items: center;
     justify-content: center;
   }
+  .team-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
 }
 @media(max-width: 479px) {
   .team-header {
@@ -526,5 +554,12 @@
   }
   .team-mobile-menu {
     padding: 16px;
+  }
+  .team-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .team-image8 {
+    margin-bottom: var(--dl-space-space-unit);
   }
 }
