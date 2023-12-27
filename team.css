@@ -11,6 +11,10 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
+.navigation-links2-navlink2 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
 
 
 
@@ -19,6 +23,14 @@
 
 
 
+
+
+@media(max-width: 1600px) {
+  .navigation-links2-nav {
+    width: 193px;
+    height: 18px;
+  }
+}
 @media(max-width: 767px) {
   .navigation-links2-nav {
     align-items: flex-start;
@@ -28,6 +40,10 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .navigation-links2-navlink1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links2-navlink2 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
