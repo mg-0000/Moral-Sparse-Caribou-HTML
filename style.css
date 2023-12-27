@@ -96,6 +96,13 @@
   text-transform: none;
   text-decoration: none;
 }
+.Scale1521 {
+  font-size: 152px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 500px;
+  font-stretch: normal;
+}
 .Heading {
   font-size: 32px;
   font-family: Inter;
@@ -111,23 +118,16 @@
   font-weight: 500px;
   font-stretch: normal;
 }
-.Scale240 {
-  font-size: 120px;
-  font-style: normal;
-  font-family: Poppins;
-  font-weight: 500px;
-}
-.Scale1521 {
-  font-size: 152px;
-  font-style: normal;
-  font-family: Poppins;
-  font-weight: 500px;
-  font-stretch: normal;
-}
 .Scale72 {
   font-size: 72px;
   font-style: normal;
   font-family: Poppins;
   font-weight: 500px;
   font-stretch: normal;
+}
+.Scale240 {
+  font-size: 120px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 500px;
 }
