@@ -40,9 +40,6 @@
   object-fit: cover;
   border-radius: var(--dl-radius-radius-round);
 }
-
-
-
 @media(max-width: 991px) {
   .testimonial-card1-text2 {
     align-self: center;
