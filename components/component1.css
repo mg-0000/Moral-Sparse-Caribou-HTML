@@ -1,0 +1,30 @@
+.component1-container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.component1-image {
+  width: 200px;
+  object-fit: cover;
+}
+@media(max-width: 1600px) {
+  .component1-container {
+    width: 555px;
+    height: 287px;
+  }
+  .component1-text {
+    color: var(--dl-color-color-white);
+  }
+  .component1-image {
+    align-self: flex-end;
+  }
+  .component1-text1 {
+    top: 79px;
+    left: 4px;
+    color: var(--dl-color-gray-white);
+    position: absolute;
+  }
+}
