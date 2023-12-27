@@ -122,7 +122,6 @@
 }
 .team-frame1 {
   width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
   height: 565px;
   display: flex;
   overflow: hidden;
@@ -132,6 +131,14 @@
   border-radius: 8px;
   background-color: var(--dl-color-gradient-06);
   background-image: linear-gradient(210deg, rgba(255, 216, 208, 1) 0%, rgba(112, 66, 210, 1) 45%, rgba(0, 0, 0, 1) 85%);
+}
+@media(max-width: 1600px) {
+  .team-text {
+    top: 67px;
+    left: 56px;
+    color: var(--dl-color-color-white);
+    position: absolute;
+  }
 }
 @media(max-width: 767px) {
   .team-header {
