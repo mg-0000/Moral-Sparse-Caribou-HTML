@@ -1,14 +1,8 @@
 .app-component-container {
+  width: 100%;
+  height: 400px;
   display: flex;
   position: relative;
-}
-.app-component-text {
-  color: var(--dl-color-gray-700);
-  font-size: 21px;
-}
-.app-component-root-class-name {
-  top: 137px;
-  left: var(--dl-space-space-sixunits);
-  right: var(--dl-space-space-sixunits);
-  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
 }
