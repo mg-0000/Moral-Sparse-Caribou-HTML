@@ -149,26 +149,12 @@
   background-color: var(--dl-color-gradient-06);
 }
 .team-container02 {
-  top: 185px;
-  left: 74px;
-  width: 1322px;
-  height: 250px;
   display: flex;
-  position: absolute;
   align-items: center;
   justify-content: flex-start;
 }
-.team-image2 {
-  width: 200px;
-  object-fit: cover;
-}
 .team-container03 {
-  top: 245px;
-  left: 77px;
-  width: 288px;
-  height: 848px;
   display: flex;
-  position: absolute;
   align-items: center;
   justify-content: flex-start;
 }
@@ -182,7 +168,7 @@
   align-items: center;
   justify-content: flex-start;
 }
-.team-image3 {
+.team-image2 {
   width: 200px;
   object-fit: cover;
 }
@@ -206,7 +192,7 @@
   align-items: center;
   justify-content: flex-start;
 }
-.team-image4 {
+.team-image3 {
   width: 200px;
   object-fit: cover;
 }
@@ -230,11 +216,35 @@
   align-items: center;
   justify-content: flex-start;
 }
-.team-image5 {
+.team-image4 {
   width: 200px;
   object-fit: cover;
 }
 .team-container09 {
+  top: 245px;
+  left: 77px;
+  width: 288px;
+  height: 848px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: flex-start;
+}
+.team-container10 {
+  top: 185px;
+  left: 74px;
+  width: 1322px;
+  height: 250px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: flex-start;
+}
+.team-image5 {
+  width: 200px;
+  object-fit: cover;
+}
+.team-container11 {
   top: 245px;
   left: 77px;
   width: 288px;
@@ -256,7 +266,17 @@
   justify-content: flex-start;
   background-color: var(--dl-color-gradient-06);
 }
-.team-container10 {
+.team-container12 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.team-container13 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.team-container14 {
   top: 185px;
   left: 74px;
   width: 1322px;
@@ -270,7 +290,7 @@
   width: 200px;
   object-fit: cover;
 }
-.team-container11 {
+.team-container15 {
   flex: 0 0 auto;
   width: 965px;
   height: auto;
@@ -278,18 +298,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.team-container12 {
-  top: 245px;
-  left: 77px;
-  width: 288px;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: 848px;
-  display: flex;
-  position: absolute;
-  align-items: center;
-  justify-content: flex-start;
-}
-.team-container13 {
+.team-container16 {
   top: 185px;
   left: 74px;
   width: 1322px;
@@ -303,7 +312,7 @@
   width: 200px;
   object-fit: cover;
 }
-.team-container14 {
+.team-container17 {
   top: 245px;
   left: 77px;
   width: 288px;
@@ -339,7 +348,7 @@
     position: absolute;
     font-size: 44px;
   }
-  .team-container02 {
+  .team-container04 {
     left: 98px;
     width: 566px;
     bottom: 69px;
@@ -357,7 +366,7 @@
     height: 250px;
     position: absolute;
   }
-  .team-container03 {
+  .team-container05 {
     top: 39px;
     left: 0px;
     width: 344px;
@@ -369,7 +378,7 @@
   .team-text03 {
     font-size: 24px;
   }
-  .team-container04 {
+  .team-container06 {
     top: 452px;
     left: 865px;
     width: 566px;
@@ -386,7 +395,7 @@
     height: 250px;
     position: absolute;
   }
-  .team-container05 {
+  .team-container07 {
     top: 39px;
     left: 0px;
     width: 344px;
@@ -398,7 +407,7 @@
   .team-text07 {
     font-size: 24px;
   }
-  .team-container06 {
+  .team-container08 {
     left: 863px;
     width: 566px;
     bottom: 129px;
@@ -416,7 +425,7 @@
     height: 250px;
     position: absolute;
   }
-  .team-container07 {
+  .team-container09 {
     top: 39px;
     left: 0px;
     width: 344px;
@@ -426,7 +435,7 @@
     color: var(--dl-color-color-black);
     font-size: 24px;
   }
-  .team-container08 {
+  .team-container10 {
     top: 472px;
     left: 89px;
     width: 566px;
@@ -446,7 +455,7 @@
     height: 250px;
     position: absolute;
   }
-  .team-container09 {
+  .team-container11 {
     top: 39px;
     left: 0px;
     width: 344px;
@@ -468,7 +477,7 @@
     position: absolute;
     font-size: 44px;
   }
-  .team-container10 {
+  .team-container14 {
     top: 477px;
     left: 100px;
   }
@@ -484,7 +493,7 @@
     height: 250px;
     position: absolute;
   }
-  .team-container11 {
+  .team-container15 {
     position: relative;
   }
   .team-text19 {
@@ -494,13 +503,7 @@
     position: absolute;
     font-size: 24px;
   }
-  .team-container12 {
-    top: 39px;
-    left: 0px;
-    width: 965px;
-    height: 211px;
-  }
-  .team-container13 {
+  .team-container16 {
     left: 98px;
     bottom: 69px;
     position: 0px;
@@ -517,7 +520,7 @@
     height: 250px;
     position: absolute;
   }
-  .team-container14 {
+  .team-container17 {
     top: 39px;
     left: 0px;
     width: 965px;
