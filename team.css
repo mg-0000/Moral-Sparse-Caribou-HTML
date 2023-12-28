@@ -149,12 +149,26 @@
   background-color: var(--dl-color-gradient-06);
 }
 .team-container02 {
+  top: 185px;
+  left: 74px;
+  width: 1322px;
+  height: 250px;
   display: flex;
+  position: absolute;
   align-items: center;
   justify-content: flex-start;
 }
+.team-image2 {
+  width: 200px;
+  object-fit: cover;
+}
 .team-container03 {
+  top: 245px;
+  left: 77px;
+  width: 288px;
+  height: 848px;
   display: flex;
+  position: absolute;
   align-items: center;
   justify-content: flex-start;
 }
@@ -168,7 +182,7 @@
   align-items: center;
   justify-content: flex-start;
 }
-.team-image2 {
+.team-image3 {
   width: 200px;
   object-fit: cover;
 }
@@ -192,7 +206,7 @@
   align-items: center;
   justify-content: flex-start;
 }
-.team-image3 {
+.team-image4 {
   width: 200px;
   object-fit: cover;
 }
@@ -216,35 +230,11 @@
   align-items: center;
   justify-content: flex-start;
 }
-.team-image4 {
-  width: 200px;
-  object-fit: cover;
-}
-.team-container09 {
-  top: 245px;
-  left: 77px;
-  width: 288px;
-  height: 848px;
-  display: flex;
-  position: absolute;
-  align-items: center;
-  justify-content: flex-start;
-}
-.team-container10 {
-  top: 185px;
-  left: 74px;
-  width: 1322px;
-  height: 250px;
-  display: flex;
-  position: absolute;
-  align-items: center;
-  justify-content: flex-start;
-}
 .team-image5 {
   width: 200px;
   object-fit: cover;
 }
-.team-container11 {
+.team-container09 {
   top: 245px;
   left: 77px;
   width: 288px;
@@ -266,17 +256,7 @@
   justify-content: flex-start;
   background-color: var(--dl-color-gradient-06);
 }
-.team-container12 {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.team-container13 {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.team-container14 {
+.team-container10 {
   top: 185px;
   left: 74px;
   width: 1322px;
@@ -290,7 +270,7 @@
   width: 200px;
   object-fit: cover;
 }
-.team-container15 {
+.team-container11 {
   flex: 0 0 auto;
   width: 965px;
   height: auto;
@@ -298,7 +278,18 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.team-container16 {
+.team-container12 {
+  top: 245px;
+  left: 77px;
+  width: 288px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 848px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: flex-start;
+}
+.team-container13 {
   top: 185px;
   left: 74px;
   width: 1322px;
@@ -312,7 +303,7 @@
   width: 200px;
   object-fit: cover;
 }
-.team-container17 {
+.team-container14 {
   top: 245px;
   left: 77px;
   width: 288px;
@@ -339,7 +330,7 @@
 }
 @media(max-width: 1600px) {
   .team-frame1 {
-    height: 724px;
+    height: 752px;
   }
   .team-text {
     top: 67px;
@@ -348,7 +339,7 @@
     position: absolute;
     font-size: 44px;
   }
-  .team-container04 {
+  .team-container02 {
     left: 98px;
     width: 566px;
     bottom: 69px;
@@ -366,7 +357,7 @@
     height: 250px;
     position: absolute;
   }
-  .team-container05 {
+  .team-container03 {
     top: 39px;
     left: 0px;
     width: 344px;
@@ -378,10 +369,12 @@
   .team-text03 {
     font-size: 24px;
   }
-  .team-container06 {
-    top: 452px;
+  .team-container04 {
+    top: 475px;
     left: 865px;
+    right: 160px;
     width: 566px;
+    bottom: 5px;
   }
   .team-text05 {
     top: 0px;
@@ -395,7 +388,7 @@
     height: 250px;
     position: absolute;
   }
-  .team-container07 {
+  .team-container05 {
     top: 39px;
     left: 0px;
     width: 344px;
@@ -403,17 +396,15 @@
   }
   .team-text06 {
     color: var(--dl-color-color-black);
-  }
-  .team-text07 {
     font-size: 24px;
   }
-  .team-container08 {
+  .team-container06 {
     left: 863px;
     width: 566px;
     bottom: 129px;
     position: absolute;
   }
-  .team-text09 {
+  .team-text07 {
     top: 0px;
     left: 5px;
     color: var(--dl-color-color-black);
@@ -425,24 +416,23 @@
     height: 250px;
     position: absolute;
   }
-  .team-container09 {
+  .team-container07 {
     top: 39px;
     left: 0px;
     width: 344px;
     height: 107px;
   }
-  .team-text10 {
+  .team-text08 {
     color: var(--dl-color-color-black);
     font-size: 24px;
   }
-  .team-container10 {
+  .team-container08 {
     top: 472px;
     left: 89px;
     width: 566px;
     bottom: 3px;
-    position: 0px;
   }
-  .team-text13 {
+  .team-text11 {
     top: 0px;
     left: 5px;
     color: var(--dl-color-color-black);
@@ -451,37 +441,36 @@
   .team-image5 {
     top: 2px;
     left: 340px;
-    right: 13px;
     height: 250px;
     position: absolute;
   }
-  .team-container11 {
+  .team-container09 {
     top: 39px;
     left: 0px;
     width: 344px;
     height: 107px;
   }
-  .team-text14 {
+  .team-text12 {
     color: var(--dl-color-color-black);
   }
-  .team-text15 {
+  .team-text13 {
     font-size: 24px;
   }
   .team-frame11 {
-    height: 843px;
+    height: 789px;
   }
-  .team-text17 {
+  .team-text15 {
     top: 67px;
     left: 56px;
     color: var(--dl-color-color-black);
     position: absolute;
     font-size: 44px;
   }
-  .team-container14 {
+  .team-container10 {
     top: 477px;
     left: 100px;
   }
-  .team-text18 {
+  .team-text16 {
     top: 0px;
     left: 5px;
     color: var(--dl-color-color-black);
@@ -493,22 +482,28 @@
     height: 250px;
     position: absolute;
   }
-  .team-container15 {
+  .team-container11 {
     position: relative;
   }
-  .team-text19 {
+  .team-text17 {
     top: -38px;
     left: -4px;
     color: var(--dl-color-color-black);
     position: absolute;
     font-size: 24px;
   }
-  .team-container16 {
+  .team-container12 {
+    top: 39px;
+    left: 0px;
+    width: 965px;
+    height: 211px;
+  }
+  .team-container13 {
     left: 98px;
     bottom: 69px;
     position: 0px;
   }
-  .team-text25 {
+  .team-text23 {
     top: 0px;
     left: 5px;
     color: var(--dl-color-color-black);
@@ -520,16 +515,16 @@
     height: 250px;
     position: absolute;
   }
-  .team-container17 {
+  .team-container14 {
     top: 39px;
     left: 0px;
     width: 965px;
     height: 211px;
   }
-  .team-text26 {
+  .team-text24 {
     color: var(--dl-color-color-black);
   }
-  .team-text27 {
+  .team-text25 {
     font-size: 24px;
   }
 }
